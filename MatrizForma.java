@@ -10,13 +10,8 @@ public class MatrizForma {
  
         System.out.println();
         for(int altura = 0; altura<=numFilas; altura++){
-            //Espacios en blanco
-            for(int blancos = 1; blancos<=numFilas-altura; blancos++){
-                
-            }
- 
-            //Asteriscos
-            for(int numero=1; numero<=(altura*2)-1; numero++){
+  
+            for(int numero = 1; numero<=(altura)+0; numero++){
                 System.out.print(numero);
             }
             System.out.println();
